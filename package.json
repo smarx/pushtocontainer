@@ -1,0 +1,15 @@
+{
+  "name": "pushtocontainer",
+  "description": "tool to push files into Windows Azure blob storage",
+  "author": "Steve Marx <smarx@smarx.com>",
+  "contributors": [{"name": "Steve Marx", "email": "smarx@smarx.com"}],
+  "keywords": ["azure", "blobs"],
+  "repository": "git://github.com/smarx/pushtocontainer",
+  "version": "1.0.0",
+  "dependencies": {
+    "azure": "~0.5.1",
+    "commander": "~0.5.2",
+    "underscore": "~1.3.1"
+  },
+  "bin": "./pushtocontainer.js"
+}
