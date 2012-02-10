@@ -4,7 +4,7 @@
   "author": "Steve Marx <smarx@smarx.com>",
   "contributors": [{"name": "Steve Marx", "email": "smarx@smarx.com"}],
   "keywords": ["azure", "blobs"],
-  "repository": "git://github.com/smarx/pushtocontainer",
+  "repository": "git://github.com/smarx/pushtocontainer.git",
   "version": "1.0.0",
   "dependencies": {
     "azure": "~0.5.1",
