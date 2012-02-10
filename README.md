@@ -25,8 +25,11 @@ Usage
     -c, --container <container-name>  blob storage container name
     -m, --max-connections [maximum]   maximum number of concurrent connections
 
-Notes
------
+Notes / Known Issues
+--------------------
+This tool doesn't (yet) support files larger than 64MB in size. Let me know if
+you need that functionality, or better yet, submit a pull request!
+
 `pushtocontainer.js` relies on MD5 hashes to determine which files should be
 transferred. If you copy files into blob storage via some other tool, you may
 find that the MD5 hash hasn't been set, and `pushtocontainer.js` transfers all
