@@ -1,6 +1,7 @@
-`pushtocontainer.js` copies files to a Windows Azure blob storage container.
-It only pushes changed files, so it can be used any time you want to make
-a container mirror your local file system.
+`pushtocontainer.js` mirrors files to a Windows Azure blob storage container.
+It only uploads changed files, and it deletes blobs that correspond to deleted
+files. After it's run, the blob container should be a mirror of the local
+directory.
 
 It's especially handy for things like
 [noderole](https://github.com/smarx/noderole), which can be configured to
